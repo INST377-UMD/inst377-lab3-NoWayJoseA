@@ -1,0 +1,107 @@
+body {
+  background-color:rgb(246, 241, 235);
+  font-family:cursive 
+}
+
+#bar {
+  text-align: center;
+  background-color: rgb(262, 231, 235);
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  margin-top: 5px;
+  clear: both;
+}
+
+#main-nav {
+  background-color: rgb(255, 240, 240);
+  text-align: left;
+}
+
+#main-nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#main-nav {
+    width: 100%;
+}
+
+#main-nav li {
+  display: inline-block;
+  position: relative;
+}
+
+#main-nav li:hover {
+  background-color: white;
+  color: white;
+}
+
+#main-nav ul ul {
+  display: none;
+  position: absolute;
+}
+
+/* If there is a UL under a list element when hovering then show it */
+#main-nav li:hover ul {
+  display: block;
+  background-color: crimson;
+  float: left;
+  position: absolute;
+  padding: 0;
+}
+
+#main-nav ul li {
+  list-style-type: none;
+  text-align: center;
+  padding: 10px;
+}
+
+.content-box {
+  background-color: rgb(262, 241, 235);
+  color: black;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.content-area {
+  width: 70%;
+  float: left;
+}
+
+#rules {
+  text-align: center;
+  background-color: rgb(262, 241, 235);
+  float: right;
+  width: 25%;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 5px;
+}
+
+#rules ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#rules li {
+    display: block;
+    text-align: center;
+    list-style-type: none;
+    margin: 5px auto;
+    padding: 5px;
+}
+
+#rules:hover{
+  background-color: white;
+}
+
+.main-container {
+  border: 2px solid black;
+  width: 100%;
+  height: 70%;
+  margin-bottom: 5px;
+}
